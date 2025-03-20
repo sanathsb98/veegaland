@@ -22,7 +22,7 @@
     align-items: center;
     gap: 18px;
     margin-bottom: 32px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .projects-toggle-sec{
     display: flex;

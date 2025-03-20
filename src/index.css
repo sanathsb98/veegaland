@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../src/assets/fonts/Montserrat.ttf);
+}
+@font-face {
+  font-family: 'Philosopher';
+  src: url(../src/assets/fonts/Philosopher.ttf);
+}
+@font-face {
+  font-family: 'GeneralSans';
+  src: url(../src/assets/fonts/GeneralSans.otf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --max-width : 1400px;
+  --navbar-font :20px;
+  --btn-bg-color : #037A3E;
+  --button-font : 22px;
+}

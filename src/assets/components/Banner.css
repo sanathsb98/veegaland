@@ -1,0 +1,49 @@
+.banner-component{
+    background-color: rgb(160, 160, 160);
+    width: 100%;
+    height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+  }
+.banner-content{
+    color: black;
+    position: absolute;
+    width: 100%;
+    max-width: var(--max-width);
+    padding: 0px 20px;
+    /* background-color: rgb(173, 172, 171); */
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.banner-title{
+    font-size: 58px;
+    color: white;
+   font-weight: 500;
+    font-family: "Philosopher";
+}
+.banner-sub-text{
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: white;
+}
+.banner-image{
+    max-height: auto;
+    background-size: contain;
+    background-position: center;
+    
+}

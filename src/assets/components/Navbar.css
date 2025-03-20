@@ -1,0 +1,52 @@
+.navbar-component{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.veegaland-logo{
+    width: 100px;
+}
+.navbar-content{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: var(--max-width);
+    font-size: var(--navbar-font);
+    padding : 20px
+}
+.navbar-content-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 42px;
+    color: white;
+}
+.nav-tab{
+    cursor: pointer;
+}
+.enquire-btn{
+    background-color: var(--btn-bg-color);
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+   max-width: 190px;
+    font-size: var(--button-font);
+    font-family: "Montserrat";
+}
+.navbar-content-left{
+   display: flex;
+    align-items: center;
+}
+@media screen and (max-width:980px) and (min-width:0px) {
+    .nav-tab,.enquire-btn{
+        display: none;
+    }
+}

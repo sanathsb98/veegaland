@@ -37,7 +37,7 @@
     color: white;
     padding: 12px 20px;
     cursor: pointer;
-   max-width: 190px;
+   max-width: 160px;
     font-size: var(--button-font);
     font-family: "Montserrat";
 }

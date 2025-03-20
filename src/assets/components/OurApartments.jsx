@@ -7,7 +7,7 @@ const OurApartments = () => {
         <div className='our-apartments-section'>
             <div className='our-apartments-content'>
                 <div className='our-apartments-header'>
-                    <div className='our-aprtments-title'>Our Biophilic Apartment Projects in Kochi</div>
+                    <div className='our-apartments-title'>Our Biophilic Apartment Projects in Kochi</div>
                     <div className='our-apartments-des'>Get to know Kerala’s Most Trusted Builder - Veegaland Homes’ Biophilic Luxury Apartments in Kochi</div>
                     <div className='projects-toggle-sec'>
                         <div className='proj-toggle-btn proj-btn-active'>All Projects</div>

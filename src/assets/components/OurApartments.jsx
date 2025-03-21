@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "../components/OurApartments.css";
 import ProjectCard from './ProjectCard';
 import getAllProjects from '../api/projects.js';
+import { Typewriter } from 'react-simple-typewriter';
 
 const OurApartments = () => {
   // State for holding the active filter
@@ -36,7 +37,15 @@ const OurApartments = () => {
             Our Biophilic Apartment Projects in Kochi
           </div>
           <div className='our-apartments-des'>
-            Get to know Kerala’s Most Trusted Builder - Veegaland Homes’ Biophilic Luxury Apartments in Kochi
+                 <Typewriter
+                                    words={['Get to know Kerala’s Most Trusted Builder - Veegaland Homes’ Biophilic Luxury Apartments in Kochi']}
+                                    loop={1}  // Adjust the loop as needed (1 means it will stop after typing once)
+                                    cursor
+                                    cursorStyle="|"
+                                    typeSpeed={100}  // Speed of typing
+                                    deleteSpeed={50}  // Speed of deleting (if you plan to add a delete effect)
+                                    delaySpeed={1500}  // Delay before typing starts
+                                />
           </div>
           <div className='projects-toggle-sec'>
             <div

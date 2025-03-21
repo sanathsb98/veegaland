@@ -1,8 +1,12 @@
 import React from 'react';
 import "../components/OurApartments.css";
 import ProjectCard from './ProjectCard';
+import getAllProjects from '../api/projects.js';
 
 const OurApartments = () => {
+
+    const projects = getAllProjects();
+
     return (
         <div className='our-apartments-section'>
             <div className='our-apartments-content'>
@@ -17,10 +21,21 @@ const OurApartments = () => {
                     </div>
                 </div>
                 <div className='our-apartments-cards'>
-                    <ProjectCard/>
-                    <ProjectCard/>
-                    <ProjectCard/>
-                    <ProjectCard/>
+                    {projects.map((project)=>(  <ProjectCard
+                      id={project.id}
+                      projectImage={project.projectImage}
+                      projectTitle={project.projectTitle}
+                      projectLocation={project.projectLocation}
+                      projectPrice={project.projectPrice}
+                      projectTag={project.projectTag}
+                      newLaunch={project.newLaunch}
+                      nearingCompletion={project.nearingCompletion}
+                      onGoing={project.onGoing}
+                      marqueeText={project.marqueeText}
+                      amenities={project.amenities}
+
+                    />))}
+                 
                 </div>
             </div>
         </div>

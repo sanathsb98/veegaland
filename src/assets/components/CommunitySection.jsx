@@ -50,7 +50,6 @@ const CommunitySection = () => {
     750: { slidesPerView: 2, spaceBetween: 200 }, // 750px - 950px → Show 3 slides
     950: { slidesPerView: 3, spaceBetween: 200 }, // Over 950px → Show 4 slides
     1750: { slidesPerView: 4, spaceBetween: 340 }, // Over 950px → Show 4 slides
- 
   }}
 >
   {slides.map((img, index) => (

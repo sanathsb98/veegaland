@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../components/OurApartments.css";
 import ProjectCard from './ProjectCard';
-import getAllProjects from '../api/projects.js';
+import getAllProjects from '../api/projects';
 import { Typewriter } from 'react-simple-typewriter';
 
 const OurApartments = () => {

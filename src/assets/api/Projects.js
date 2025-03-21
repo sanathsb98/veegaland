@@ -5,7 +5,7 @@ import Maybell from "../Images/Maybell.png";
 import GreenHeights from "../Images/GreenHeights.png";
 import saftey from "../Images/saftey.svg"
 import bricks from "../Images/bricks.svg"
-import amenities from "../Images/saftey.svg"
+import amenities from "../Images/amenities.svg"
 import plan from "../Images/plan.svg"
 import game from "../Images/game.png"
 
